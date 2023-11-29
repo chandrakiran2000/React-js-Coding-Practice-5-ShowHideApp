@@ -1,0 +1,100 @@
+/* Write your CSS here */
+@media (max-width: 768px) {
+  .bg-card {
+    background-image: linear-gradient(to right, #fa7257, #fc63a7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .head {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 20px;
+  }
+  .bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .btn {
+    color: #dd1264;
+    background-color: #ffffff;
+    height: 40px;
+    width: 200px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  .show-card {
+    margin: 20px;
+    background-color: #fddddb;
+    height: 150px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .name {
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-card {
+    background-image: linear-gradient(to right, #fa7257, #fc63a7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .head {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 20px;
+  }
+  .bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .btn {
+    color: #dd1264;
+    background-color: #ffffff;
+    height: 40px;
+    width: 200px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  .show-card {
+    margin: 20px;
+    background-color: #fddddb;
+    height: 150px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .name {
+  }
+}
